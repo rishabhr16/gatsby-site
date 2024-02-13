@@ -17,6 +17,7 @@
   "dependencies": {
     "@fontsource/roboto-mono": "^4.4.5",
     "babel-plugin-styled-components": "^1.13.1",
+    "react-resize-detector": "^6.6.5",
     "gatsby": "^3.8.1",
     "gatsby-plugin-gatsby-cloud": "^2.8.1",
     "gatsby-plugin-react-helmet": "^4.8.0",

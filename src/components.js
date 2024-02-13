@@ -89,7 +89,22 @@ export const Image = styled.img`
   width: 100px;
   position: absolute;
   right: 0px;
-  top: 0px;
+  cursor: ${(props) => (props.pointer ? "pointer" : "auto")};
+  ${(props) => (props.top || props.top === 0 ? `top: ${props.top}px` : "")};
+  ${(props) =>
+    props.show && !props.flip
+      ? "transform: translate3d(0px, 0, 0)"
+      : "transform: translate3d(100px, 0, 0)"};
+  transition: transform 4s ease;
+`;
+
+export const ImageFlipped = styled(Image)`
+  left: 0px;
+  ${(props) =>
+    props.show && props.flip
+      ? "transform: translate3d(0px, 0, 0)"
+      : "transform: translate3d(-100px, 0, 0)"};
+  transition: transform 4s ease;
 `;
 
 export const Flex = styled.div`
