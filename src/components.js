@@ -11,11 +11,9 @@ export const Main = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: ${colors.white};
   height: calc(100vh - 100px);
   font-family: "Roboto Mono", monospace;
   color: ${colors.black};
-  padding: 50px;
   @media only screen and (max-width: 750px) {
     align-items: flex-start;
     padding: 50px 20px;
