@@ -1,0 +1,7 @@
+{
+  "main.js": "render-page.js",
+  "render-page.js.map": "render-page.js.map",
+  "static/404-cat.jpg": "static/404-cat-bef5204d26fba85939c5978b2abbc892.jpg",
+  "static/peeking-cat-flip-min.png": "static/peeking-cat-flip-min-3b6684f52ce66e55744ce759eb2e5106.png",
+  "static/peeking-cat-min.png": "static/peeking-cat-min-cd7d4ea28e4edb1745653ac14d82643b.png"
+}
