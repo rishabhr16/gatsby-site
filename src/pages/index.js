@@ -71,7 +71,7 @@ function App() {
       <Helmet>
         {/* <!-- COMMON TAGS --> */}
         <meta charset="utf-8" />
-        <title>Rishabh Rao | {jobTitle}</title>
+        <title>Rishabh Rao</title>
         {/* <!-- Search Engine --> */}
         <meta
           name="description"
